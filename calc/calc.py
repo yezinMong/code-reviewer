@@ -8,7 +8,7 @@ def getZegop(a):
     pass
 
 def getMinus(a, b):
-    pass
+    return a-b
 
 def getDivide(a, b):
     pass
