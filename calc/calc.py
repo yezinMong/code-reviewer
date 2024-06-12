@@ -14,4 +14,4 @@ def getDivide(a, b):
     pass
 
 def getSumSum(a, b, c):
-    pass
+    return getSum(getSum(a, b), c)
