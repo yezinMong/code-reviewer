@@ -2,7 +2,7 @@ def getSum(a, b):
     pass
 
 def getGop(a, b):
-    pass
+    return a * b
 
 def getZegop(a):
     pass
