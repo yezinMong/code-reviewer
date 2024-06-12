@@ -1,17 +1,19 @@
-def getSum(a, b):
-    pass
+class Calc:
+    def getSum(self, a, b):
+        result = a + b
+        return result
 
-def getGop(a, b):
-    pass
+    def getGop(self, a, b):
+        return a * b
 
-def getZegop(a):
-    pass
+    def getZegop(self, a):
+        return a * a
 
-def getMinus(a, b):
-    pass
+    def getMinus(self, a, b):
+        return a - b
 
-def getDivide(a, b):
-    pass
+    def getDivide(self, a, b):
+        return 0 if b == 0 else a / b
 
-def getSumSum(a, b, c):
-    pass
+    def getSumSum(self, a, b, c):
+        return self.getSum(self.getSum(a, b), c)
