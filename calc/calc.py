@@ -1,5 +1,6 @@
 def getSum(a, b):
-    pass
+    result = a + b
+    return result
 
 def getGop(a, b):
     return a * b
