@@ -1,23 +1,17 @@
 def getSum(a, b):
-    result = a + b
-    return result
-
+    pass
 
 def getGop(a, b):
-    return a * b
-
+    pass
 
 def getZegop(a):
     pass
 
-
 def getMinus(a, b):
-    return a-b
-
+    pass
 
 def getDivide(a, b):
-    return 0 if b == 0 else a / b
-
+    pass
 
 def getSumSum(a, b, c):
-    return getSum(getSum(a, b), c)
+    pass
